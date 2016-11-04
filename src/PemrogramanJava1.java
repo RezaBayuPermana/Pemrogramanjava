@@ -15,3 +15,11 @@ class PemrogramanJava1 {
             }
             System.out.print("\n");
         }
+        System.out.println();
+        // Segitiga siku kiri bawah
+        for(i=0;i<panjang;i++) {
+            for(j=i;j<panjang;j++) {
+                System.out.print("*");
+            }
+        System.out.println();
+        }
