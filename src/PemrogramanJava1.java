@@ -23,3 +23,13 @@ class PemrogramanJava1 {
             }
         System.out.println();
         }
+        // Segitiga siku kanan atas
+        for(i=0; i<=panjang; i++) {
+            for(j=0; j<(panjang-i); j++) {
+                System.out.print(" ");
+            }
+            for(int k=0; k<i; k++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
